@@ -1,2 +1,2 @@
 # Portfolio_page
-example porfolil page
+example portfolio page

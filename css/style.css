@@ -1,0 +1,164 @@
+
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Open Sans', arial, sans-serif;
+}
+
+
+nav a:link{
+	text-decoration: none;
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/***end of navbar**/
+
+/****beginning of jumbotron area***/
+
+ /**#work_desk {
+	background:  url(https://images.unsplash.com/7/Top_view.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=a15c3b79f86254615f2955c6206df169);
+	background-size: cover;
+	background-position: center;
+	height:600px;
+}
+**/
+
+#work_desk_text{
+	
+    font-size: 44.9444px;
+	color:#fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-family: 'Open Sans', arial, sans-serif;
+	line-height: 600px;
+	letter-spacing: 7.77778px;
+}
+ .parallax-container {
+      height: 600px;
+    }
+
+/****end of jumbotron area***/
+ 
+ /****beginning of about area***/
+
+#about{
+	height: 600px;
+}
+
+/****end of about area***/
+ 
+ /****beginning of method area***/
+
+ #method{
+	
+	
+	
+	color: rgb(255, 255, 255);
+
+
+}
+
+#icons div{
+	margin-bottom: 50px;
+
+}
+
+
+
+hr{
+	margin-bottom: 50px;
+	width: 80px;
+	font-weight: 5px;
+}
+#icons{
+
+	margin-top: 80px;
+	margin-bottom:  80px;
+
+}
+
+/****end method area***/
+ 
+ /****beginning of works area***/
+
+#works_images div img{
+	min-height: 300px;
+	max-height: 300px;
+	width: 100%;
+	margin-bottom: 9px;
+}
+
+/****end works area***/
+ 
+ /****beginning of team area***/
+#team{
+	height: 600px;
+}
+
+}
+section .team-img{
+	max-height: 100px;
+	max-width: 100px;
+}
+
+#works_images img{
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+/****end team area***/
+ 
+ /****beginning of clients area***/
+
+ #clients {
+ 	/**background: url(http://aetherthemes.com/demo/visia/images/clients.jpg);**/
+ 	background-size: cover;
+	background-position: center;
+	height:550px;
+	color: rgb(255, 255, 255);
+	margin-top: 100px;
+ }
+
+ #footer{
+ 	padding-top: 60px;
+ 	padding-bottom: 60px;
+ 	color: rgb(255, 255, 255);
+ 	background:#071317;
+
+ }
+
+/***media queries for method section fonts **/
+
+ @media screen and (max-width: 299px) {
+    #icons .fa {
+        font-size: 1.2em;
+    }
+    #method-text{
+    	font-size: .5em;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+    #icons .fa {
+        font-size: 2em;
+    }
+    #method-text{
+    	font-size: .5em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #icons .fa {
+        font-size: 4em;
+    }
+
+}
+/*****/
